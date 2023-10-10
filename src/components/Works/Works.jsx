@@ -21,18 +21,18 @@ const Works = () => {
       <div className="w-left">
         <div className="awesome">
           {/* dark Mode */}
-          <span style={{ color: darkMode ? 'white' : '' }}>
-            Technologies I use
-          </span>
+          <span style={{ color: darkMode ? 'white' : '' }}>Technologies</span>
           <span>Languages & Frameworks</span>
           <spane>
+            Web Development: HTML5, CSS3
+            <br />
             Languages: Ruby, JavaScript
             <br />
-            Front-End: React & Redux, Bootstrap, Tailwind, CSS
+            Front-End: React & Redux, Bootstrap, Tailwind
             <br />
-            Back-End: Ruby on Rails, Node.js
+            Back-End: Ruby on Rails, NodeJS
             <br />
-            Database: PostgreSQL
+            Database Management: PostgreSQL
             <br />
             Testing: Capybara (Integration Testing), Jest (Front-End Testing),
             RSpec (Ruby/Rails Testing)
