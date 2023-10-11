@@ -1,7 +1,6 @@
 /* stylelint-disable length-zero-no-unit */
-/* stylelint-disable declaration-block-no-duplicate-properties */
+
 .card {
-  width: 10rem;
   height: 13rem;
   position: absolute;
   display: flex;
