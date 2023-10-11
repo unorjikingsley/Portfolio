@@ -19,16 +19,19 @@ const Contact = () => {
         form.current,
         '2pk5I3YftMtjlZxFf',
       )
-      .then(
-        (result) => {
-          console.log(result.text);
-          setDone(true);
-          form.reset();
-        },
-        (error) => {
-          console.log(error.text);
-        },
-      );
+      .then(() => {
+        // Handle the success result as needed, or remove the comment
+        // For example, you can set a success message or redirect the user to a thank-you page.
+        // Handle success here...
+
+        setDone(true);
+        form.reset();
+      })
+      .catch(() => {
+        // Handle errors here, if needed, or remove the comment if you want to ignore errors.
+        // For example, you can display an error message to the user.
+        // Handle errors here...
+      });
   };
 
   return (
