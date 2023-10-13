@@ -3,14 +3,20 @@ import PropTypes from 'prop-types';
 import './Card.css';
 
 const Card = ({
-  emoji, heading, detail, color, link,
+  emoji,
+  heading,
+  detail,
+  color,
+  link,
 }) => (
   <div className="card" style={{ borderColor: { color } }}>
     <img src={emoji} alt="" />
     <span>{heading}</span>
     <span>{detail}</span>
-    <a href={link}>
-      <button type="button" className="c-button">LEARN MORE</button>
+    <a href={link} target="_blank" rel="noopener noreferrer">
+      <button type="button" className="c-button">
+        LEARN MORE
+      </button>
     </a>
   </div>
 );
