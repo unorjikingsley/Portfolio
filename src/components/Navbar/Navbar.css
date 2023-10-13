@@ -7,7 +7,8 @@
   position: fixed;
 
   /* gap: 10rem; */
-  background-color: white;
+
+  /* background-color: white; */
   z-index: 999;
   width: 92%;
   padding-right: 20px;
