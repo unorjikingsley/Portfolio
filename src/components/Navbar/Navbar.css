@@ -2,8 +2,16 @@
   height: 10vh;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 2rem;
+  margin-bottom: 20rem;
   top: 0;
+  position: fixed;
+
+  /* gap: 10rem; */
+  background-color: white;
+  z-index: 999;
+  width: 92%;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .n-left {
