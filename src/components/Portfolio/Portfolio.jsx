@@ -28,12 +28,20 @@ const Portfolio = () => {
         <SwiperSlide>
           <img src={Carhub} alt="screenshot" />
           <div className="btnn">
-            <a href="https://carreservation.netlify.app/">
+            <a
+              href="https://carreservation.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button type="button" className="button linked">
                 See Demo
               </button>
             </a>
-            <a href="https://github.com/unorjikingsley/Reservation-API">
+            <a
+              href="https://github.com/unorjikingsley/Reservation-API"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button type="button" className="button linkd">
                 Source Code
               </button>
@@ -43,12 +51,20 @@ const Portfolio = () => {
         <SwiperSlide>
           <img src={Maths} alt="screenshot" />
           <div className="btnn">
-            <a href="https://math-react-calculator.onrender.com/">
+            <a
+              href="https://math-react-calculator.onrender.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button type="button" className="button linked">
                 See Demo
               </button>
             </a>
-            <a href="https://github.com/unorjikingsley/react-mathmagician-calculator">
+            <a
+              href="https://github.com/unorjikingsley/react-mathmagician-calculator"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button type="button" className="button linkd">
                 Source Code
               </button>
@@ -58,12 +74,20 @@ const Portfolio = () => {
         <SwiperSlide>
           <img src={rockets} alt="screenshot" />
           <div className="btnn">
-            <a href="https://try-out--neon-croissant-69c240.netlify.app/">
+            <a
+              href="https://try-out--neon-croissant-69c240.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button type="button" className="button linked">
                 See Demo
               </button>
             </a>
-            <a href="https://github.com/unorjikingsley/Rocket-Launch">
+            <a
+              href="https://github.com/unorjikingsley/Rocket-Launch"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button type="button" className="button linkd">
                 Source Code
               </button>
@@ -73,12 +97,20 @@ const Portfolio = () => {
         <SwiperSlide>
           <img src={todo} alt="screenshot" />
           <div className="btnn">
-            <a href="https://reacttodoapp-7xi1.onrender.com/">
+            <a
+              href="https://reacttodoapp-7xi1.onrender.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button type="button" className="button linked">
                 See Demo
               </button>
             </a>
-            <a href="https://github.com/unorjikingsley/React-ToDo-Website">
+            <a
+              href="https://github.com/unorjikingsley/React-ToDo-Website"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button type="button" className="button linkd">
                 Source Code
               </button>
@@ -88,12 +120,20 @@ const Portfolio = () => {
         <SwiperSlide>
           <img src={books} alt="screenshot" />
           <div className="btnn">
-            <a href="https://bookstore-l2rl.onrender.com/">
+            <a
+              href="https://bookstore-l2rl.onrender.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button type="button" className="button linked">
                 See Demo
               </button>
             </a>
-            <a href="https://github.com/unorjikingsley/React-Bookstore">
+            <a
+              href="https://github.com/unorjikingsley/React-Bookstore"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button type="button" className="button linkd">
                 Source Code
               </button>
