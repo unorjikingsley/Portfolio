@@ -17,16 +17,32 @@ const Footer = () => (
         <span>unorjikingsley@gmail.com</span>
       </a>
       <div className="f-icons">
-        <a href="https://www.linkedin.com/in/unorjikingsley/">
+        <a
+          href="https://www.linkedin.com/in/unorjikingsley/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <LinkedIn color="white" size="3rem" />
         </a>
-        <a href="https://github.com/unorjikingsley">
+        <a
+          href="https://github.com/unorjikingsley"
+          target="_blank"
+          rel="noreferrer"
+        >
           <Github color="white" size="3rem" />
         </a>
-        <a href="https://wellfound.com/u/unorji-kingsley-chijioke">
+        <a
+          href="https://wellfound.com/u/unorji-kingsley-chijioke"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FontAwesomeIcon icon={faAngellist} color="white" size="3x" />
         </a>
-        <a href="https://medium.com/@unorjikingsley">
+        <a
+          href="https://medium.com/@unorjikingsley"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FontAwesomeIcon icon={faMedium} color="white" size="3x" />
         </a>
       </div>
