@@ -42,16 +42,16 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <a href="https://github.com/unorjikingsley">
+          <a href="https://github.com/unorjikingsley" target="_blank" rel="noreferrer">
             <img src={Github} alt="GitHub" />
           </a>
-          <a href="https://www.linkedin.com/in/unorjikingsley/">
+          <a href="https://www.linkedin.com/in/unorjikingsley/" target="_blank" rel="noreferrer">
             <img src={LinkedIn} alt="LinkedIn" />
           </a>
-          <a href="https://wellfound.com/u/unorji-kingsley-chijioke">
+          <a href="https://wellfound.com/u/unorji-kingsley-chijioke" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faAngellist} color="orange" size="4x" />
           </a>
-          <a href="https://medium.com/@unorjikingsley">
+          <a href="https://medium.com/@unorjikingsley" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faMedium} color="orange" size="5x" />
           </a>
         </div>
