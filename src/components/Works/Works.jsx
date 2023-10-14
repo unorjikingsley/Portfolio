@@ -73,7 +73,7 @@ const Works = () => {
             <img
               src={Node}
               alt=""
-              style={{ width: '150px', height: '50px', paddingLeft: '10px' }}
+              style={{ width: '150px', height: '40px', paddingLeft: '10px' }}
             />
           </div>
           {' '}
