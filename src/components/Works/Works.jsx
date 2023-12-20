@@ -32,7 +32,7 @@ const Works = () => {
             <br />
             Back-End: Ruby on Rails, NodeJS
             <br />
-            Database Management: PostgreSQL
+            Database Management: PostgreSQL, MongoDB
             <br />
             Testing: Capybara (Integration Testing), Jest (Front-End Testing),
             RSpec (Ruby/Rails Testing)

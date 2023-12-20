@@ -7,6 +7,7 @@ import todo from '../../img/toDo.png';
 import Carhub from '../../img/CarHubs.png';
 import rockets from '../../img/reserveRocket.png';
 import books from '../../img/bookStore.png';
+import jobs from '../../img/Jobify-stats.png';
 import { themeContext } from '../../Context';
 
 const Portfolio = () => {
@@ -25,6 +26,29 @@ const Portfolio = () => {
         grabCursor
         className="portfolio-slider"
       >
+        <SwiperSlide>
+          <img src={jobs} alt="screenshot" />
+          <div className="btnn">
+            <a
+              href="https://jobify-stnc.onrender.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button type="button" className="button linked">
+                See Demo
+              </button>
+            </a>
+            <a
+              href="https://github.com/unorjikingsley/Jobbs_App_BE"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button type="button" className="button linkd">
+                Source Code
+              </button>
+            </a>
+          </div>
+        </SwiperSlide>
         <SwiperSlide>
           <img src={Carhub} alt="screenshot" />
           <div className="btnn">
