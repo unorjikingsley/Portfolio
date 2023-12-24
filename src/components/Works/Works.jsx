@@ -38,7 +38,9 @@ const Works = () => {
             RSpec (Ruby/Rails Testing)
             <br />
             Testing: Git, GitHub, Vercel, Render, Pirsma, Netlify, Heroku, Docker, AWS, RSpec,
-            TDD, Chrome Dev Tools, RESTful APIs
+            TDD,
+            <br />
+            Chrome Dev Tools, RESTful APIs
           </spane>
           <Link to="contact" smooth spy>
             <button type="button" className="button s-button">
