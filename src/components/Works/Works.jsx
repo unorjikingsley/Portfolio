@@ -28,7 +28,7 @@ const Works = () => {
             <br />
             Languages: Ruby, JavaScript
             <br />
-            Front-End: React & Redux, Bootstrap, Tailwind
+            Front-End: React & Redux, TypeScript, Bootstrap, Tailwind
             <br />
             Back-End: Ruby on Rails, NodeJS
             <br />
@@ -36,6 +36,9 @@ const Works = () => {
             <br />
             Testing: Capybara (Integration Testing), Jest (Front-End Testing),
             RSpec (Ruby/Rails Testing)
+            <br />
+            Testing: Git, GitHub, Vercel, Render, Pirsma, Netlify, Heroku, Docker, AWS, RSpec,
+            TDD, Chrome Dev Tools, RESTful APIs
           </spane>
           <Link to="contact" smooth spy>
             <button type="button" className="button s-button">
