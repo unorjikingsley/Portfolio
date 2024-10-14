@@ -7,6 +7,7 @@ import todo from '../../img/toDo.png';
 import Carhub from '../../img/CarHubs.png';
 import rockets from '../../img/reserveRocket.png';
 import books from '../../img/bookStore.png';
+import woa from '../../img/woa.png';
 import jobs from '../../img/Jobify-stats.png';
 import { themeContext } from '../../Context';
 
@@ -26,6 +27,29 @@ const Portfolio = () => {
         grabCursor
         className="portfolio-slider"
       >
+        <SwiperSlide>
+          <img src={woa} alt="screenshot" />
+          <div className="btnn">
+            <a
+              href="https://worshipordainedassembly.org"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button type="button" className="button linked">
+                See Demo
+              </button>
+            </a>
+            <a
+              href="https://github.com/unorjikingsley"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button type="button" className="button linkd">
+                Source Code
+              </button>
+            </a>
+          </div>
+        </SwiperSlide>
         <SwiperSlide>
           <img src={jobs} alt="screenshot" />
           <div className="btnn">
